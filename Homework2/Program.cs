@@ -1,10 +1,11 @@
-﻿Console.WriteLine("Викторина \"Кто хочет стать програмистом?\"\r\n" +
+﻿double reward = 0.5;
+Console.WriteLine("Викторина \"Кто хочет стать програмистом?\"\r\n" +
     "Нужно ответить на несколько вопросов. " +
-    "За каждый правильный ответ вы получаете 0.5 баллов\r\n" +
+    "За каждый правильный ответ вы получаете " + reward + " баллов\r\n" +
     "Постарайтесь набрать максимуму баллов\r\nНажмите enter чтобы начать");
 double score = 0;
-double reward = 0.5;
 int answer = 0;
+int win = 0;
 Console.ReadLine();
 Console.Clear();
 Console.WriteLine("Вопрос #1");
@@ -21,7 +22,9 @@ while (!int.TryParse(Console.ReadLine(), out answer) || answer < 1 || answer > 4
 if (answer == 1)
 {
     score = score + reward;
-}
+    win= win + 1;
+
+   }
 Console.Clear();
 Console.WriteLine("Вопрос #2");
 Console.WriteLine("Какого языка программирования не существует?");
@@ -38,6 +41,8 @@ while (!int.TryParse(Console.ReadLine(), out answer) || answer < 1 || answer > 4
 if (answer == 3)
 {
     score = score + reward;
+    win = win + 1;
+
 }
 Console.Clear();
 Console.WriteLine("Вопрос #3");
@@ -54,8 +59,10 @@ while (!int.TryParse(Console.ReadLine(), out answer) || answer < 1 || answer > 4
 if (answer == 4)
 {
     score = score + reward;
+    win = win + 1;
+
 }
 Console.Clear();
 Console.WriteLine("Викторина окончена.");
-Console.WriteLine("3 вопроса, правильных ответов - " + score * 2);
+Console.WriteLine("3 вопроса, правильных ответов - " + win);
 Console.WriteLine("Набрано " + score + " баллов");
