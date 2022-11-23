@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1", "Homework\Homework1.csproj", "{CABF5C34-95D8-4222-A57A-8F5C52406BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1", "Homework\Homework1.csproj", "{CABF5C34-95D8-4222-A57A-8F5C52406BCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{18140383-8B80-4C57-AB0C-27F9149A78FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2", "Homework2\Homework2.csproj", "{18140383-8B80-4C57-AB0C-27F9149A78FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "Pizza\Pizza.csproj", "{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{18140383-8B80-4C57-AB0C-27F9149A78FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18140383-8B80-4C57-AB0C-27F9149A78FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18140383-8B80-4C57-AB0C-27F9149A78FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
