@@ -1,0 +1,15 @@
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\bin\Debug\net6.0\Поле Чудес.exe
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\bin\Debug\net6.0\Поле Чудес.deps.json
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\bin\Debug\net6.0\Поле Чудес.runtimeconfig.json
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\bin\Debug\net6.0\Поле Чудес.dll
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\bin\Debug\net6.0\Поле Чудес.pdb
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.dll
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\refint\Поле Чудес.dll
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.pdb
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\Поле Чудес.genruntimeconfig.cache
+C:\Users\Artem\Desktop\Projects\Homework\Поле Чудес\obj\Debug\net6.0\ref\Поле Чудес.dll

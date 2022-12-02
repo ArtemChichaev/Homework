@@ -22,9 +22,9 @@ while (!int.TryParse(Console.ReadLine(), out answer) || answer < 1 || answer > 4
 if (answer == 1)
 {
     score = score + reward;
-    win= win + 1;
+    win = win + 1;
 
-   }
+}
 Console.Clear();
 Console.WriteLine("Вопрос #2");
 Console.WriteLine("Какого языка программирования не существует?");

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework2\\Homework2.csproj",
-      "projectName": "Homework2",
-      "projectPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework2\\Homework2.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Поле Чудес\\Поле Чудес.csproj",
+      "projectName": "Поле Чудес",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Поле Чудес\\Поле Чудес.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework2\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Поле Чудес\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
