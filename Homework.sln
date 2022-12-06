@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2", "Homework2\Home
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizza", "Pizza\Pizza.csproj", "{90FC2EB5-9EC2-4115-ADA6-23079F21B33B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Поле Чудес", "Поле Чудес\Поле Чудес.csproj", "{349FC819-E2AC-4E56-8B65-292EC8482FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Поле Чудес", "Поле Чудес\Поле Чудес.csproj", "{349FC819-E2AC-4E56-8B65-292EC8482FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{B5319D97-598A-42B1-B442-DF25D64FBEFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{349FC819-E2AC-4E56-8B65-292EC8482FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{349FC819-E2AC-4E56-8B65-292EC8482FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{349FC819-E2AC-4E56-8B65-292EC8482FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5319D97-598A-42B1-B442-DF25D64FBEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5319D97-598A-42B1-B442-DF25D64FBEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5319D97-598A-42B1-B442-DF25D64FBEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5319D97-598A-42B1-B442-DF25D64FBEFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
