@@ -13,3 +13,18 @@ C:\Users\Artem\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\refint\ToDo.dll
 C:\Users\Artem\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.pdb
 C:\Users\Artem\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
 C:\Users\Artem\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ref\ToDo.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\bin\Debug\net6.0\ToDo.exe
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\bin\Debug\net6.0\ToDo.deps.json
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\bin\Debug\net6.0\ToDo.runtimeconfig.json
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\bin\Debug\net6.0\ToDo.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\bin\Debug\net6.0\ToDo.pdb
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.csproj.AssemblyReference.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.AssemblyInfoInputs.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.AssemblyInfo.cs
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\refint\ToDo.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.pdb
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\ToDo\obj\Debug\net6.0\ref\ToDo.dll

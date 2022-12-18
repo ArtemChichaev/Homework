@@ -1,83 +1,88 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ToDo
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Это Ваш список дел!");
-            Console.WriteLine("Здесь Вы можете отмечать выполнение Ваших дел, добавлять и удалять дела.");
-            void Info()
-            {
-                Console.WriteLine("Выберите действие:");
-                Console.WriteLine("+ - добавить (введите номер для списка, введите дело);");
-                Console.WriteLine("- - удалить (введите номер дела).");
-                Console.WriteLine("= - выполнено (введите номер дела).");
-                Console.WriteLine("* - завершить работу со списком.");
-                DateTime dateTime = DateTime.Parse("12.12.2022");
-                Console.WriteLine(dateTime.ToLongDateString());
-            }
-            Info();
-            var listDo = new Dictionary<int, string>()
+        static Dictionary<int, string> ToDoItemsDict = new()
                 {
                     {1, "Уборка" },
                     {2, "Готовка" },
                     {3, "Шопинг" },
                     {4, "Отдых" }
                 };
-            void ShowList()
-            {
-                foreach (var item in listDo)
-                {
-                    Console.WriteLine(item.Key + " " + item.Value);
-                }
-            }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Это Ваш список дел!");
+            Console.WriteLine("Здесь Вы можете отмечать выполнение Ваших дел, добавлять и удалять дела.");
+            Console.WriteLine(" ");
+            ActionList();
             ShowList();
-            string UserChoise = Console.ReadLine();
-            string Exame = "+-=";
-            while (UserChoise != "*")
+            string userChoise = Console.ReadLine();
+            string exame = "+-=";
+            while (userChoise != "*")
             {
-                while (!Exame.Contains(UserChoise))
+                while (!exame.Contains(userChoise))
                 {
                     Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
+                    Console.ReadLine();
                 }
-                switch (UserChoise)
+                switch (userChoise)
                 {
                     case "+":
                         Console.WriteLine("Введите дейтсвие, которое хотите добавить в список.");
-                        var GetDo = Console.ReadLine().ToLower();
-                        listDo.Add(listDo.Count + 1, GetDo);
+                        var getDo = Console.ReadLine().ToLower();
+                        ToDoItemsDict.Add(ToDoItemsDict.Count + 1, getDo);
                         ShowList();
                         break;
                     case "-":
                         Console.WriteLine("Введите номер действия, которое хотите удалить из списка.");
-                        int NumberDel;
-                        while (!int.TryParse(Console.ReadLine(), out NumberDel) || NumberDel < 1 || NumberDel > listDo.Count)
+                        int numberDel;
+                        while (!int.TryParse(Console.ReadLine(), out numberDel) || numberDel < 1 || numberDel > ToDoItemsDict.Count)
                         {
                             Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
                         }
-                        listDo.Remove(NumberDel);
+                        ToDoItemsDict.Remove(numberDel);
                         ShowList();
                         break;
                     case "=":
                         Console.WriteLine("Введите номер действия, которому хотите добавить отметку выполнения.");
-                        int NumberDone;
-                        while (!int.TryParse(Console.ReadLine(), out NumberDone) || NumberDone < 1 || NumberDone > listDo.Count)
+                        int numberDone;
+                        while (!int.TryParse(Console.ReadLine(), out numberDone) || numberDone < 1 || numberDone > ToDoItemsDict.Count)
                         {
                             Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
                         }
-                        listDo[NumberDone] = listDo[NumberDone] + " сделано!";
+                        ToDoItemsDict[numberDone] = ToDoItemsDict[numberDone] + " сделано!";
                         ShowList();
                         break;
                 }
                 Console.Clear();
-                Info();
+                ActionList();
                 ShowList();
-                UserChoise = Console.ReadLine();
+                userChoise = Console.ReadLine();
             }
             Console.Clear();
             Console.WriteLine("Работа завершена!");
+        }
+        static void ActionList()
+        {
+            Console.WriteLine("Выберите действие:");
+            Console.WriteLine("+ - добавить (введите номер для списка, введите дело);");
+            Console.WriteLine("- - удалить (введите номер дела).");
+            Console.WriteLine("= - выполнено (введите номер дела).");
+            Console.WriteLine("* - завершить работу со списком.");
+            Console.WriteLine(" ");
+            DateTime dateTime = DateTime.Now;
+            Console.WriteLine(dateTime);
+            Console.WriteLine(" ");
+        }
+        static void ShowList()
+        {
+            foreach (var item in ToDoItemsDict)
+            {
+                Console.WriteLine(item.Key + " " + item.Value);
+            }
         }
     }
 }
