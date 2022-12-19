@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizza", "Pizza\Pizza.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Поле Чудес", "Поле Чудес\Поле Чудес.csproj", "{349FC819-E2AC-4E56-8B65-292EC8482FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{B5319D97-598A-42B1-B442-DF25D64FBEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Converter", "Converter\Converter.csproj", "{B5319D97-598A-42B1-B442-DF25D64FBEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo", "ToDo\ToDo.csproj", "{C3685681-BE5C-479D-81A3-B1176D03A406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo", "ToDo\ToDo.csproj", "{C3685681-BE5C-479D-81A3-B1176D03A406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAS", "WAS\WAS.csproj", "{A778E3F4-7F6A-4425-9D13-679B35849D78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C3685681-BE5C-479D-81A3-B1176D03A406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3685681-BE5C-479D-81A3-B1176D03A406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3685681-BE5C-479D-81A3-B1176D03A406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A778E3F4-7F6A-4425-9D13-679B35849D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A778E3F4-7F6A-4425-9D13-679B35849D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A778E3F4-7F6A-4425-9D13-679B35849D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A778E3F4-7F6A-4425-9D13-679B35849D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,23 @@
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\bin\Debug\net6.0\WAS.exe
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\bin\Debug\net6.0\WAS.deps.json
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\bin\Debug\net6.0\WAS.runtimeconfig.json
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\bin\Debug\net6.0\WAS.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\bin\Debug\net6.0\WAS.pdb
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.csproj.AssemblyReference.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.AssemblyInfoInputs.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.AssemblyInfo.cs
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.csproj.CoreCompileInputs.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\refint\WAS.dll
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.pdb
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.genruntimeconfig.cache
+C:\Users\голова глаза\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\ref\WAS.dll
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.dll
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\refint\WAS.dll
+C:\Users\Artem\Desktop\Projects\Homework\WAS\obj\Debug\net6.0\WAS.pdb
