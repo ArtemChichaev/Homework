@@ -53,12 +53,13 @@
             {
                 Console.WriteLine("Товар с таким Id уже существует.");
                 return;
-            }
             GoodsDict.Add(good.Id, good);
         }
         private static Goods GetNewGood()
         {
-            Console.WriteLine("Введите наименование, описание и категорию товара.");
+            Console.WriteLine("Введите Id товара.");
+            int id = Console.ReadLine();
+            Console.WriteLine("Введите наименование товара.");
             var name = Console.ReadLine();
             var description = Console.ReadLine();
             var category = Console.ReadLine();
