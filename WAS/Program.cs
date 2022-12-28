@@ -20,11 +20,20 @@
             var actionKey = ActionGoods("Введите номер действия", ActionsWithGoodsDict.Keys.First(), ActionsWithGoodsDict.Keys.Last());
             switch (ActionsWithGoodsDict[actionKey])
             {
+                case "Поиск. Введите Id товара":
+                    int idFromUser;
+                    while (!int.TryParse(Console.ReadLine(), out idFromUser) || Goods.Id.Contains(idFromUser))
+                    {
+                        Console.WriteLine("");
+                        Console.ReadLine();
+                    }
+                    break;
+                case "Вывод количества товара. Введите Id товара":
+                    break;
                 case "Добавить":
                     var good = GetNewGood();
-                    AddGood(good);
                     break;
-                default:
+                case "Удалить. Введите Id товара":
                     break;
             }
         }
@@ -54,14 +63,13 @@
             {
                 id = GoodsDict.Keys.Max() + 1;
             }
-            return id;
 
             Console.WriteLine("Введите наименование товара.");
-            string name = Console.ReadLine();
+            string name = GetStringFromUser();
             Console.WriteLine("Введите описание товара.");
-            string description = Console.ReadLine();
+            string description = GetStringFromUser();
             Console.WriteLine("Введите категорию товара.");
-            string category = Console.ReadLine();
+            string category = GetStringFromUser();
             Console.WriteLine("Введите количество товара (цифрой или числом).");
             int quantity;
             while (!int.TryParse(Console.ReadLine(), out quantity) || quantity < 0)
