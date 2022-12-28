@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\голова глаза\\.nuget\\packages\\": {}
+    "C:\\Users\\Artem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\голова глаза\\Desktop\\Projects\\Homework\\Homework\\Homework1.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework\\Homework1.csproj",
       "projectName": "Homework1",
-      "projectPath": "C:\\Users\\голова глаза\\Desktop\\Projects\\Homework\\Homework\\Homework1.csproj",
-      "packagesPath": "C:\\Users\\голова глаза\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\голова глаза\\Desktop\\Projects\\Homework\\Homework\\obj\\",
+      "projectPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework\\Homework1.csproj",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\Homework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\голова глаза\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,7 +8,7 @@
             {1,"Поиск товара"},
             {2,"Вывод названия и количества товара"},
             {3,"Добавить"},
-            {4,"Удалить"},
+            {4,"Удалить"}
         };
         static void Main(string[] args)
         {
@@ -36,36 +36,40 @@
         private static int ActionGoods(string message, int startNumber, int endNumber)
         {
             Console.WriteLine(message);
-            int number = 0;
-            while (!int.TryParse(Console.ReadLine(), out number) || number < startNumber || number > endNumber)
+            int number;
+            while (!int.TryParse(Console.ReadLine(), out number) || !ActionsWithGoodsDict.Keys.Contains(number))
             {
                 Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
             }
             return number;
         }
-        private static void AddGood(Goods good)
-        {
-            if (good == null)
-            {
-                return;
-            }
-            if (GoodsDict.Contains(good.Id))
-            {
-                Console.WriteLine("Товар с таким Id уже существует.");
-                return;
-            GoodsDict.Add(good.Id, good);
-        }
         private static Goods GetNewGood()
         {
-            Console.WriteLine("Введите Id товара.");
-            int id = Console.ReadLine();
+            int id;
+            if (GoodsDict.Keys.Max() == 0)
+            {
+                id = 1;
+            }
+            else
+            {
+                id = GoodsDict.Keys.Max() + 1;
+            }
+            return id;
+
             Console.WriteLine("Введите наименование товара.");
-            var name = Console.ReadLine();
-            var description = Console.ReadLine();
-            var category = Console.ReadLine();
-            int quantity = int.Parse(Console.ReadLine());
-            var gds = new Goods(0, name, description, category, quantity);
-            return gds;
+            string name = Console.ReadLine();
+            Console.WriteLine("Введите описание товара.");
+            string description = Console.ReadLine();
+            Console.WriteLine("Введите категорию товара.");
+            string category = Console.ReadLine();
+            Console.WriteLine("Введите количество товара (цифрой или числом).");
+            int quantity;
+            while (!int.TryParse(Console.ReadLine(), out quantity) || quantity < 0)
+            {
+                Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
+                Console.ReadLine();
+            }
+            var gds = new Goods(id, name, description, category, quantity);
         }
         private static string GetStringFromUser()
         {

@@ -16,7 +16,7 @@ namespace ToDo
         {
             Console.WriteLine("Это Ваш список дел!");
             Console.WriteLine("Здесь Вы можете отмечать выполнение Ваших дел, добавлять и удалять дела.");
-            Console.WriteLine(" ");
+            Console.WriteLine();
             ActionList();
             ShowList();
             string userChoise = Console.ReadLine();
@@ -72,10 +72,10 @@ namespace ToDo
             Console.WriteLine("- - удалить (введите номер дела).");
             Console.WriteLine("= - выполнено (введите номер дела).");
             Console.WriteLine("* - завершить работу со списком.");
-            Console.WriteLine(" ");
+            Console.WriteLine();
             DateTime dateTime = DateTime.Now;
             Console.WriteLine(dateTime);
-            Console.WriteLine(" ");
+            Console.WriteLine();
         }
         static void ShowList()
         {
