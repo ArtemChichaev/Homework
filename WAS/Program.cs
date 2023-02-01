@@ -22,10 +22,9 @@
             {
                 case "Поиск. Введите Id товара":
                     int idFromUser;
-                    while (!int.TryParse(Console.ReadLine(), out idFromUser) || Goods.Id.Contains(idFromUser))
+                    while (!int.TryParse(Console.ReadLine(), out idFromUser) || Goods.(idFromUser))
                     {
                         Console.WriteLine("");
-                        Console.ReadLine();
                     }
                     break;
                 case "Вывод количества товара. Введите Id товара":
@@ -46,7 +45,7 @@
         {
             Console.WriteLine(message);
             int number;
-            while (!int.TryParse(Console.ReadLine(), out number) || !ActionsWithGoodsDict.Keys.Contains(number))
+            while (!int.TryParse(Console.ReadLine(), out number) || !ActionsWithGoodsDict.ContainsKey(number))
             {
                 Console.WriteLine("Данные введены некорректно. Попробуйте снова.");
             }
