@@ -22,10 +22,17 @@
             {
                 case "Поиск. Введите Id товара":
                     int idFromUser;
+<<<<<<< HEAD
+                    //while (!int.TryParse(Console.ReadLine(), out idFromUser) || Goods.(idFromUser))
+                    //{
+                    //    Console.WriteLine("");
+                    //}
+=======
                     while (!int.TryParse(Console.ReadLine(), out idFromUser) || Goods.(idFromUser))
                     {
                         Console.WriteLine("");
                     }
+>>>>>>> bec98fdbfd74a5bd3090c9bdfe94939010ee8b36
                     break;
                 case "Вывод количества товара. Введите Id товара":
                     break;
@@ -77,6 +84,8 @@
                 Console.ReadLine();
             }
             var gds = new Goods(id, name, description, category, quantity);
+
+            return default;
         }
         private static string GetStringFromUser()
         {

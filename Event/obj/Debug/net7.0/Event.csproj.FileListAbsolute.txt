@@ -1,0 +1,15 @@
+C:\Users\Artem\Desktop\Projects\Homework\Event\bin\Debug\net7.0\Event.exe
+C:\Users\Artem\Desktop\Projects\Homework\Event\bin\Debug\net7.0\Event.deps.json
+C:\Users\Artem\Desktop\Projects\Homework\Event\bin\Debug\net7.0\Event.runtimeconfig.json
+C:\Users\Artem\Desktop\Projects\Homework\Event\bin\Debug\net7.0\Event.dll
+C:\Users\Artem\Desktop\Projects\Homework\Event\bin\Debug\net7.0\Event.pdb
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.csproj.AssemblyReference.cache
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.AssemblyInfo.cs
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.dll
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\refint\Event.dll
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.pdb
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\Event.genruntimeconfig.cache
+C:\Users\Artem\Desktop\Projects\Homework\Event\obj\Debug\net7.0\ref\Event.dll

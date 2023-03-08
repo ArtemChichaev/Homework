@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "1FyJeFRPHb3GyRoAlqeykrSPdtKE1jLos4U2H9WVPC9/IAdpkxqcoOqRN0l7aIijQJFEo525L/bZbMKMNbC8hg==",
+=======
   "dgSpecHash": "9N2KOzGBV+H76NtTitFEDqcimLVo+zjW00ZhXw9aUqqKjDHNS/viNOB3qZbOITmG91VGgrskBXiFYXTt07Afew==",
+>>>>>>> bec98fdbfd74a5bd3090c9bdfe94939010ee8b36
   "success": true,
   "projectFilePath": "C:\\Users\\Artem\\Desktop\\Projects\\Homework\\MailBox\\MailBox.csproj",
   "expectedPackageFiles": [],

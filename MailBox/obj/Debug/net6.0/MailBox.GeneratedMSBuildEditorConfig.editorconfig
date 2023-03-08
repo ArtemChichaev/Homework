@@ -5,6 +5,10 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+<<<<<<< HEAD
+build_property.EnforceExtendedAnalyzerRules = 
+=======
+>>>>>>> bec98fdbfd74a5bd3090c9bdfe94939010ee8b36
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MailBox
 build_property.ProjectDir = C:\Users\Artem\Desktop\Projects\Homework\MailBox\
